@@ -23,5 +23,5 @@ jobs:
 
       - name: Build & Push AttendenceApp
         run: |
-          docker build -t ${{ secrets.DOCKER_USERNAME }}/attendenceapp:latest
+          docker build -t ${{ secrets.DOCKER_USERNAME }}/attendenceapp:latest ./appstore/attendenceapp
           docker push ${{ secrets.DOCKER_USERNAME }}/attendenceapp:latest
