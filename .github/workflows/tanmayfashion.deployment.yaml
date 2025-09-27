@@ -23,5 +23,5 @@ jobs:
 
       - name: Build & Push AttendenceApp
         run: |
-          docker build -t ${{ secrets.DOCKER_USERNAME }}/tanmayfashionApp:latest ./appstore/tanmayfashionapp
-          docker push ${{ secrets.DOCKER_USERNAME }}/tanmayfashionAppp:latest
+          docker build -t ${{ secrets.DOCKER_USERNAME }}/tanmayfashionapp:latest ./appstore/tanmayfashionapp
+          docker push ${{ secrets.DOCKER_USERNAME }}/tanmayfashionappp:latest
