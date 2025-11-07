@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: fans-app
-        image: maheshsoft/fans_shop:latest0dc60534ee3d
+        image: maheshsoft/fans_shop:latest
         ports:
         - containerPort: 80
 ---
